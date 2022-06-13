@@ -1,4 +1,4 @@
 
 https://TatianaVit.github.io/rsschool-cv/cv <br/>
-https://TatianaVit.github.io/rsschool-cv/index.html
+https://TatianaVit.github.io/rsschool-cv/
 
