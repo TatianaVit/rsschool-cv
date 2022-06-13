@@ -1,0 +1,137 @@
+@font-face {
+    font-family: Roboto;
+    src: url("assets/fonts/Roboto.ttf");
+}
+* {
+	padding: 0;
+	margin: 0;
+	font-family: sans-serif;
+    box-sizing: border-box;
+}
+body {
+    width: 100%;
+    min-height: 100vh;
+    flex-direction: column;
+    justify-content: space-between;
+    font-family: 'Roboto', sans-serif;
+}
+header, footer {
+	padding: 5px 5px;
+    display: flex; 
+	align-items: center;
+    font-size: 14pt;	
+    box-shadow: 10px 0 10px 10px #4e639b;
+	background-color: #8295c9;
+}
+header {
+    justify-content: center;
+    margin-bottom: 20px;
+    min-height: 55px;
+}
+footer {
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+.nav-list {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-left: 25px ;
+    list-style-type: none;
+}
+a {
+    padding: 0 20px;
+	text-decoration: none;
+	color: black;
+}
+a:hover {
+	color: white;
+}
+section img {
+    border-radius: 100px;
+}
+p {
+	margin-bottom: 15px;
+}
+section {
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    border-bottom: 1px solid #8c9bc5;
+}
+.profile {
+    width: 100%;
+    display: grid; 
+    grid-template-columns: auto;
+    grid-template-areas: 
+    "A B"
+    "A C";
+    column-gap: 50px;
+    justify-items: center;
+  	align-items: center;
+    padding-bottom: 40px;
+    border-bottom: 10px solid;
+    border-color: #8c9bc5;
+}   
+.profile img {
+    grid-area: A;
+}
+.profile h1 {
+    grid-area: B;
+    padding-bottom: 40px;
+    font-size: 40px;
+    border-bottom: 5px solid;
+    border-color: #8c9bc5;
+}
+.profile h2 {
+    grid-area: C;
+    font-size: 35px;
+}
+.container {
+    display: grid; 
+    grid-auto-columns: 1fr;
+    grid-template-areas:
+    "D E"
+    "F G"
+    "H I"
+    "J K";
+    place-content: start space-evenly;
+	place-items: center stretch;
+  	margin-left: 20px;
+    justify-content: space-between;
+    column-gap: 50px;
+}
+.contact {
+    grid-area: D;
+}
+.about {
+    grid-area: E;
+}
+.skills {
+    grid-area: F;
+}
+.code-example {
+    grid-area: G;
+}
+.work-experience {
+    grid-area: H;
+}
+.education {
+    grid-area: I;
+}
+.languages {
+    grid-area: J;
+}
+h3 {
+   padding-top: 15px;
+}
+ul {
+    list-style-position: inside;
+}
+.rss {
+    width: 121px;
+    height: 45px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
